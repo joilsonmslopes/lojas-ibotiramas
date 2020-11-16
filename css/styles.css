@@ -103,6 +103,7 @@ header .search a i {
   justify-content: center;
   align-items: center;
   background-color: white;
+  color: #e60014;
   width: 45px;
   height: 45px;
   border-radius: 0 8px 8px 0;
@@ -198,7 +199,7 @@ section.products .single-product h3:hover {
 }
 
 section.info {
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   padding: 20px 50px;
 }
 
@@ -215,6 +216,12 @@ section.info .info-wrapper .single-info a {
 section.info .info-wrapper .single-info a:hover {
   text-decoration: underline;
   opacity: 1;
+}
+
+footer {
+  background-color: #ebebeb;
+  padding: 40px;
+  text-align: center;
 }
 
 @media screen and (max-width: 876px) {
