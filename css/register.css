@@ -148,18 +148,36 @@ section.sign form label {
     margin-bottom: 7px;
 }
 
+section.sign form input[type=text],
 section.sign form input[type=email],
-section.sign form input[type=password] {
+section.sign form input[type=password],
+section.sign form input[type=date] {
     border: 1 solid black;
     height: 45px;
     padding: 5px 8px;
 }
 
 
+section.sign form input:nth-child(4) {
+    width: 100%;
+    max-width: 280px;
+}
+
+section.sign form input:nth-child(6) {
+    width: 100%;
+    max-width: 220px;
+}
+
+section.sign form input:nth-child(10) {
+    width: 100%;
+    max-width: 220px;
+}
 
 section.sign form input[type=submit] {
-    width: 100%;
+    width: 80%;
+    max-width: 280px;
     height: 45px;
+    margin-left: 40px;
     margin-top: 40px;
     background-color: #e60014;
     border: 0;
