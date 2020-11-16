@@ -77,9 +77,11 @@ header .logo {
   padding: 0 2%;
 }
 
-header .logo h2 {
+header .logo a {
   text-transform: uppercase;
   color: white;
+  font-weight: 700;
+  font-size: 23px;
 }
 
 header .search {
@@ -127,7 +129,7 @@ header .nav-desktop nav ul li a {
 
 header .nav-desktop nav ul li a:hover,
 header .nav-desktop nav ul li a.checked {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 section.navegation nav ul {
